@@ -1,55 +1,48 @@
+* {
+    margin: 10px;
+    text-align: center;
+}
+
 .box {
   
    
-    border-radius: 8px;
+    display: flex;
    
-    flex-direction: column;
+     gap:4rem
 
 }
- .buttonthree {
+ .buttonthree1 {
   background-color: rgb(111, 111, 164);
   color: white;
   border: none;
-  padding: 10px 20px;
+  
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+ 
   cursor: pointer;
   border-radius: 8px;
 }
-.buttonone:hover {
-  background-color: green;
-}
-.buttonone::after {
-  content: "Click Me! ☺️";
-  padding: 40px;
-}
+ 
+ 
 .buttonone:hover::after {
   content: "Boo 🤖";
- 
+ font-size: 4rem;
    
 }
 
-.buttontwo:hover {
-  background-color: green;
-}
-.buttontwo::after {
-  content: "hello";
-}
+ 
+ 
 .buttontwo:hover::after {
   content: "world!";
   background-color: rgb(217, 118, 226);
 
 }
 
-.buttonthree:hover {
-  background-color: green;
-}
-.buttonthree::after {
-  content: "New Request";
-}
+ 
 .buttonthree:hover::after {
   content: "Completed!";
+  padding: 2rem;
+  
 }
